@@ -17,7 +17,7 @@ export enum CrossOriginOpenerPolicyValue {
    */
   SameOriginAllowPopups = "same-origin-allow-popups",
 
-  /** This behaves the same as {@link CrossOriginOpenerPolicyValue.SameOriginAllowPopups},
+  /** This behaves the same as {@link SameOriginAllowPopups},
    * with the addition that any [auxiliary browsing context](https://html.spec.whatwg.org/multipage/document-sequences.html#auxiliary-browsing-context) created needs to contain [same origin](https://html.spec.whatwg.org/multipage/browsers.html#same-origin) documents
    * that also have the same [cross-origin opener policy](https://html.spec.whatwg.org/multipage/browsers.html#cross-origin-opener-policy) or it will appear closed to the opener.
    * @see ["same-origin"](https://html.spec.whatwg.org/multipage/browsers.html#coop-same-origin)
